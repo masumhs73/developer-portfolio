@@ -29,14 +29,13 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
-    margin-top: 30px;
 }
 
 nav ul {
