@@ -29,13 +29,14 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px;
 }
 
 .nav-title {
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
+    margin-top: 30px;
 }
 
 nav ul {
@@ -46,6 +47,7 @@ nav ul {
 nav li {
     list-style: none;
     margin-left: 50px;
+    margin-top: 30px;
 }
 
 /* banner styles */
@@ -203,4 +205,38 @@ section {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+
+/* Contact styles */
+
+.contact{
+    display: flex;
+    gap: 120px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin: 16px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+input{
+    height: 64px;
+    
+}
+
+.contact .section-description{
+    font-size: 16px;
+    text-align: left;
+}
+.contact a{
+    text-decoration: none;
+    margin: 0 15px 15px 0;
 }
