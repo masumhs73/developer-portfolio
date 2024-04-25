@@ -256,3 +256,8 @@ input {
     text-decoration: none;
     margin: 0 15px 15px 0;
 }
+
+.footer{
+    text-align: center;
+    padding: 30px;
+}
