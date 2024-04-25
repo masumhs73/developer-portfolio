@@ -16,8 +16,20 @@
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
+    margin-right: 30px;
 }
 
+.btn-secondary {
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    height: 64px;
+    width: 200px;
+    padding: 18px 35px;
+    background: #FFF8F3;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
 .header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url('../images/developer.png');
@@ -200,23 +212,28 @@ section {
 .resume .description {
     color: #757575;
 }
-.resume-button{
+
+.resume-button {
     margin-top: 50px;
     text-align: center;
 }
 
 /* Contact styles */
 
-.contact{
+.contact {
     display: flex;
     gap: 120px;
     background-color: #FFF8F3;
     padding: 130px 200px;
 }
-.contact .section-title{
+
+.contact .section-title {
     text-align: left;
 }
-.contact input[type="text"], input[type="email"], textarea{
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
     margin: 16px;
     border: 0;
     width: 100%;
@@ -225,16 +242,17 @@ section {
     background-color: #FFFFFF;
 }
 
-input{
+input {
     height: 64px;
-    
+
 }
 
-.contact .section-description{
+.contact .section-description {
     font-size: 16px;
     text-align: left;
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
     margin: 0 15px 15px 0;
 }
